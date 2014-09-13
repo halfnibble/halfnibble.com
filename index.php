@@ -39,11 +39,11 @@
 		<div class="description">
 			<img class="th radius left" src="http://www.gravatar.com/avatar/7504fae09ab00aac17a6fbcb02d199d2.png">
 			
-			<h4 class="title">The professional webpage of <span class="nobreak">Josh Wedekind</span></h4>
+			<h4 class="title"><span class="nobreak">Josh Wedekind</span></h4>
 			
-			<a href="#" class="nobreak"><i class="fa fa-twitter-square"></i> @halfnibble</a> &nbsp;
-			<a href="#" class="nobreak"><i class="fa fa-git-square"></i> GitHub</a> &nbsp;
-			<a href="3" class="nobreak"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+			<a href="#" class="round-icon"><i class="fa fa-twitter"></i></a> &nbsp;
+			<a href="#" class="round-icon"><i class="fa fa-git"></i></a> &nbsp;
+			<a href="3" class="round-icon"><i class="fa fa-linkedin"></i></a>
 			<br style="clear: both">
 			<span class="nobreak">Phone: <a href="#">+1 (206) 930-2645</a></span>&nbsp;
 			<span class="nobreak">Email: <a href="mailto:josh@halfnibble.com">josh@halfnibble.com</a></span>			

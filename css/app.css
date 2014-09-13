@@ -1718,7 +1718,7 @@ article {
   top: 50%;
   margin-top: -0.6875rem;
   right: 0.25rem;
-  color: #333333;
+  color: #151515;
   opacity: 0.3;
 }
 /* line 94, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -2331,12 +2331,12 @@ article {
 /* line 75, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
   cursor: default;
-  color: #333333;
+  color: #151515;
 }
 /* line 78, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current a {
   cursor: default;
-  color: #333333;
+  color: #151515;
 }
 /* line 83, ../bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
@@ -2414,7 +2414,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 button.secondary, .button.secondary {
   background-color: #e7e7e7;
   border-color: #b9b9b9;
-  color: #333333;
+  color: #151515;
 }
 /* line 161, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2422,7 +2422,7 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  color: #333333;
+  color: #151515;
 }
 /* line 225, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
@@ -2470,7 +2470,7 @@ button.warning:hover, button.warning:focus, .button.warning:hover, .button.warni
 button.info, .button.info {
   background-color: #a0d3e8;
   border-color: #61b6d9;
-  color: #333333;
+  color: #151515;
 }
 /* line 161, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
@@ -2553,7 +2553,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #e7e7e7;
   border-color: #b9b9b9;
-  color: #333333;
+  color: #151515;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
@@ -2564,7 +2564,7 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  color: #333333;
+  color: #151515;
 }
 /* line 178, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2637,7 +2637,7 @@ button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].w
 button.disabled.info, button[disabled].info, .button.disabled.info, .button[disabled].info {
   background-color: #a0d3e8;
   border-color: #61b6d9;
-  color: #333333;
+  color: #151515;
   cursor: default;
   opacity: 0.7;
   box-shadow: none;
@@ -3288,7 +3288,7 @@ button::-moz-focus-inner {
 
 /* line 60, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
 .clearing-blackout {
-  background: #333333;
+  background: #151515;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -3342,7 +3342,7 @@ button::-moz-focus-inner {
   margin-bottom: 0;
   text-align: center;
   bottom: 0;
-  background: #333333;
+  background: #151515;
   width: 100%;
   padding: 10px 30px 20px;
   position: absolute;
@@ -3489,7 +3489,7 @@ button::-moz-focus-inner {
   }
   /* line 230, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-assembled .clearing-container .visible-img {
-    background: #333333;
+    background: #151515;
     overflow: hidden;
     height: 85%;
   }
@@ -3872,7 +3872,7 @@ button::-moz-focus-inner {
 }
 /* line 126, ../bower_components/foundation/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button.secondary:after, button.dropdown.secondary:after {
-  border-color: #333333 transparent transparent transparent;
+  border-color: #151515 transparent transparent transparent;
 }
 
 /* line 49, ../bower_components/foundation/scss/foundation/components/_flex-video.scss */
@@ -4078,7 +4078,7 @@ select::-ms-expand {
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
-  color: #333333;
+  color: #151515;
   border-color: #cccccc;
 }
 
@@ -4086,7 +4086,7 @@ span.prefix, label.prefix {
 span.postfix, label.postfix {
   background: #f2f2f2;
   border-left: none;
-  color: #333333;
+  color: #151515;
   border-color: #cccccc;
 }
 
@@ -4500,7 +4500,7 @@ label.error {
   width: 100%;
   font-size: 0;
   display: inline-block;
-  background: #333333;
+  background: #151515;
 }
 /* line 39, ../bower_components/foundation/scss/foundation/components/_icon-bar.scss */
 .icon-bar > * {
@@ -4749,7 +4749,7 @@ label.error {
 .joyride-tip-guide {
   display: none;
   position: absolute;
-  background: #333333;
+  background: #151515;
   color: #FFFFFF;
   z-index: 101;
   top: 0;
@@ -4788,12 +4788,12 @@ label.error {
   left: 22px;
   width: 0;
   height: 0;
-  border: 10px solid #333333;
+  border: 10px solid #151515;
 }
 /* line 90, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
 .joyride-tip-guide .joyride-nub.top {
   border-top-style: solid;
-  border-color: #333333;
+  border-color: #151515;
   border-top-color: transparent !important;
   border-left-color: transparent !important;
   border-right-color: transparent !important;
@@ -4802,7 +4802,7 @@ label.error {
 /* line 98, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
 .joyride-tip-guide .joyride-nub.bottom {
   border-bottom-style: solid;
-  border-color: #333333 !important;
+  border-color: #151515 !important;
   border-bottom-color: transparent !important;
   border-left-color: transparent !important;
   border-right-color: transparent !important;
@@ -4914,7 +4914,7 @@ label.error {
   }
   /* line 194, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.bottom {
-    border-color: #333333 !important;
+    border-color: #151515 !important;
     border-bottom-color: transparent !important;
     border-left-color: transparent !important;
     border-right-color: transparent !important;
@@ -4922,7 +4922,7 @@ label.error {
   }
   /* line 201, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.right {
-    border-color: #333333 !important;
+    border-color: #151515 !important;
     border-top-color: transparent !important;
     border-right-color: transparent !important;
     border-bottom-color: transparent !important;
@@ -4932,7 +4932,7 @@ label.error {
   }
   /* line 209, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide .joyride-nub.left {
-    border-color: #333333 !important;
+    border-color: #151515 !important;
     border-top-color: transparent !important;
     border-left-color: transparent !important;
     border-bottom-color: transparent !important;
@@ -4998,12 +4998,12 @@ kbd {
 /* line 102, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label.secondary {
   background-color: #e7e7e7;
-  color: #333333;
+  color: #151515;
 }
 /* line 103, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label.info {
   background-color: #a0d3e8;
-  color: #333333;
+  color: #151515;
 }
 
 /* line 18, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
@@ -5212,7 +5212,7 @@ kbd {
 }
 /* line 228, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer.paused > span.dark {
-  border-left-color: #333333;
+  border-left-color: #151515;
 }
 /* line 237, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container:hover .orbit-timer > span {
@@ -5518,7 +5518,7 @@ ul.pagination li {
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .title {
-  background-color: #333333;
+  background-color: #151515;
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #EEEEEE;
@@ -5531,7 +5531,7 @@ ul.pagination li {
   background-color: #F6F6F6;
   padding: 0.9375rem 1.25rem;
   text-align: center;
-  color: #333333;
+  color: #151515;
   font-weight: normal;
   font-size: 2rem;
   font-family: "Cabin", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5552,7 +5552,7 @@ ul.pagination li {
   background-color: #FFFFFF;
   padding: 0.9375rem;
   text-align: center;
-  color: #333333;
+  color: #151515;
   font-size: 0.875rem;
   font-weight: normal;
   border-bottom: dotted 1px #DDDDDD;
@@ -6074,7 +6074,7 @@ dialog[open] {
 }
 /* line 166, ../bower_components/foundation/scss/foundation/components/_split-buttons.scss */
 .split.button.secondary span:after {
-  border-color: #333333 transparent transparent transparent;
+  border-color: #151515 transparent transparent transparent;
 }
 /* line 186, ../bower_components/foundation/scss/foundation/components/_split-buttons.scss */
 .split.button.radius span {
@@ -6743,7 +6743,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
-  color: #333333;
+  color: #151515;
   background-color: #f8f8f8;
   border-width: 1px;
   border-style: solid;
@@ -7201,7 +7201,7 @@ blockquote p {
   border-bottom: dotted 1px #CCCCCC;
   cursor: help;
   font-weight: bold;
-  color: #333333;
+  color: #151515;
 }
 /* line 44, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
@@ -7226,7 +7226,7 @@ blockquote p {
   left: 50%;
   width: 100%;
   color: #FFFFFF;
-  background: #333333;
+  background: #151515;
 }
 /* line 68, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tooltip > .nub {
@@ -7236,7 +7236,7 @@ blockquote p {
   width: 0;
   height: 0;
   border: solid 5px;
-  border-color: transparent transparent #333333 transparent;
+  border-color: transparent transparent #151515 transparent;
   top: -10px;
   pointer-events: none;
 }
@@ -7274,12 +7274,12 @@ blockquote p {
 @media only screen and (min-width: 40.063em) {
   /* line 110, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip > .nub {
-    border-color: transparent transparent #333333 transparent;
+    border-color: transparent transparent #151515 transparent;
     top: -10px;
   }
   /* line 114, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-top > .nub {
-    border-color: #333333 transparent transparent transparent;
+    border-color: #151515 transparent transparent transparent;
     top: auto;
     bottom: -10px;
   }
@@ -7289,7 +7289,7 @@ blockquote p {
   }
   /* line 123, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-left > .nub {
-    border-color: transparent transparent transparent #333333;
+    border-color: transparent transparent transparent #151515;
     right: -10px;
     left: auto;
     top: 50%;
@@ -7297,7 +7297,7 @@ blockquote p {
   }
   /* line 130, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.tip-right > .nub {
-    border-color: transparent #333333 transparent transparent;
+    border-color: transparent #151515 transparent transparent;
     right: auto;
     left: -10px;
     top: 50%;
@@ -7543,7 +7543,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > a.button.secondary {
   background-color: #e7e7e7;
   border-color: #b9b9b9;
-  color: #333333;
+  color: #151515;
 }
 /* line 161, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
@@ -7551,7 +7551,7 @@ meta.foundation-mq-topbar {
 }
 /* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-  color: #333333;
+  color: #151515;
 }
 /* line 322, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
@@ -7602,7 +7602,7 @@ meta.foundation-mq-topbar {
 .top-bar-section ul li > button.secondary {
   background-color: #e7e7e7;
   border-color: #b9b9b9;
-  color: #333333;
+  color: #151515;
 }
 /* line 161, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
@@ -7610,7 +7610,7 @@ meta.foundation-mq-topbar {
 }
 /* line 167, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-  color: #333333;
+  color: #151515;
 }
 /* line 333, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button.success {
@@ -9105,8 +9105,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5rem;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
 header:before, header:after {
@@ -9117,14 +9115,16 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 23, ../scss/_main.sass */
+/* line 21, ../scss/_main.sass */
 header .logos {
   text-align: center;
-  margin-bottom: 20px;
+  padding: 30px;
 }
-/* line 27, ../scss/_main.sass */
+/* line 25, ../scss/_main.sass */
 header .description {
-  margin-bottom: 20px;
+  background-color: #151515;
+  color: #d0c9c3;
+  padding: 30px;
 }
 /* line 30, ../scss/_main.sass */
 header .description img {
@@ -9142,12 +9142,30 @@ header h4 {
 }
 
 /* line 39, ../scss/_main.sass */
+.round-icon {
+  display: block;
+  float: left;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  border: 1px solid #d0c9c3;
+  margin-right: 18px;
+  text-align: center;
+}
+/* line 48, ../scss/_main.sass */
+.round-icon .fa {
+  color: #d0c9c3;
+  font-size: 22px;
+  margin: 7px;
+}
+
+/* line 53, ../scss/_main.sass */
 #nibble-logo {
   height: 80px;
   margin-bottom: 15px;
 }
 
-/* line 47, ../scss/_main.sass */
+/* line 61, ../scss/_main.sass */
 section {
   width: 100%;
   margin-left: auto;
@@ -9166,27 +9184,27 @@ section:after {
   clear: both;
 }
 
-/* line 50, ../scss/_main.sass */
+/* line 64, ../scss/_main.sass */
 article {
   padding: 30px 30px 10px 30px;
   border-left: 1px solid #151515;
   border-right: 1px solid #151515;
 }
-/* line 55, ../scss/_main.sass */
+/* line 69, ../scss/_main.sass */
 article .title {
   color: #2c89cf;
 }
-/* line 58, ../scss/_main.sass */
+/* line 72, ../scss/_main.sass */
 article.alternate {
   background-color: #151515;
   color: #d0c9c3;
 }
-/* line 61, ../scss/_main.sass */
+/* line 75, ../scss/_main.sass */
 article.alternate .title {
   color: #877e7e;
 }
 
-/* line 65, ../scss/_main.sass */
+/* line 79, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;

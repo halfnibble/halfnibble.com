@@ -18,15 +18,15 @@ $silver: #877e7e
 // HEADER
 header
 	+grid-row()
-	margin-top: 20px
-	margin-bottom: 10px
 	.logos
 		@extend .large-6, .medium-5, .columns
 		text-align: center
-		margin-bottom: 20px
+		padding: 30px
 	.description
 		@extend .large-6, .medium-7, .columns
-		margin-bottom: 20px
+		background-color: $dark
+		color: $tan
+		padding: 30px
 		img
 			margin-right: 10px
 			margin-bottom: 10px
@@ -35,6 +35,20 @@ header
 	h4
 		font-weight: bold
 		margin-bottom: 0.2rem
+
+.round-icon
+	display: block
+	float: left
+	width: 36px
+	height: 36px
+	border-radius: 18px
+	border: 1px solid $tan
+	margin-right: 18px
+	text-align: center
+	.fa
+		color: $tan
+		font-size: 22px
+		margin: 7px
 
 #nibble-logo
 	height: 80px
