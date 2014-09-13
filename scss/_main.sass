@@ -1,0 +1,66 @@
+// COLORS
+$tan: #d0c9c3
+$dark: #151515
+$blue: #2c89cf
+$green: #39ce2c
+$silver: #877e7e
+
+// PAGE
+.hand
+	font-family: 'Homemade Apple', cursive
+	font-size: 1.3em
+.title
+	font-family: 'Electrolize', sans-serif
+.nobreak
+	white-space: nowrap
+
+
+// HEADER
+header
+	+grid-row()
+	margin-top: 20px
+	margin-bottom: 10px
+	.logos
+		@extend .large-6, .medium-5, .columns
+		text-align: center
+		margin-bottom: 20px
+	.description
+		@extend .large-6, .medium-7, .columns
+		margin-bottom: 20px
+		img
+			margin-right: 10px
+			margin-bottom: 10px
+		span
+			font-weight: bold
+	h4
+		font-weight: bold
+		margin-bottom: 0.2rem
+
+#nibble-logo
+	height: 80px
+	margin-bottom: 15px
+
+// NAVIGATION
+
+
+// CONTENT
+section
+	+grid-row()
+
+article
+	@extend .large-6, .medium-6, .columns
+	padding: 30px 30px 10px 30px
+	border-left: 1px solid $dark
+	border-right: 1px solid $dark
+	.title
+		color: $blue
+	// Dark alternative
+	&.alternate
+		background-color: $dark
+		color: $tan
+		.title
+			color: $silver
+
+// FOOTER
+footer
+	+grid-row()
