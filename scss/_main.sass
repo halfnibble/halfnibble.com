@@ -1,3 +1,7 @@
+// IMPORTS
+@import "compass/css3/transform"
+@import "compass/css3/transition"
+
 // COLORS
 $tan: #d0c9c3
 $dark: #151515
@@ -19,34 +23,62 @@ $silver: #877e7e
 header
 	+grid-row()
 	.logos
-		@extend .large-6, .medium-5, .columns
+		@extend .large-6, .medium-6, .columns
 		text-align: center
 		padding: 30px
+		border-bottom: 4px solid $dark
 	.description
-		@extend .large-6, .medium-7, .columns
+		@extend .large-6, .medium-6, .columns
 		background-color: $dark
 		color: $tan
 		padding: 30px
+		text-align: center
+		div.right
+			text-align: right
 		img
-			margin-right: 10px
-			margin-bottom: 10px
+			float: right
+			margin-top: 0.5rem
+			margin-right: 18px
+			margin-bottom: 18px
+			@include rotate(-4deg)
+			&:hover
+				@include rotate(3deg)
 		span
 			font-weight: bold
 	h4
 		font-weight: bold
-		margin-bottom: 0.2rem
+		color: $tan
+		margin-bottom: 0
+		margin: 0
+	h6
+		color: $silver
+		margin-top: 0
 
-.round-icon
+#description-center
+	margin: 0 auto
+	width: 280px // may need to fudge with this
+
+.contact-me
+	margin-bottom: 7px
+
+a.round-icon
 	display: block
-	float: left
+	float: right
 	width: 36px
 	height: 36px
 	border-radius: 18px
 	border: 1px solid $tan
-	margin-right: 18px
+	margin-left: 14px
+	margin-right: 4px
+	margin-bottom: 1rem
 	text-align: center
+	color: $tan
+	@include transition-property(background-color, color)
+	@include transition-duration(400ms)
+	&:hover
+		background-color: $tan
+		color: $blue
 	.fa
-		color: $tan
 		font-size: 22px
 		margin: 7px
 
@@ -55,6 +87,8 @@ header
 	margin-bottom: 15px
 
 // NAVIGATION
+nav.top-bar
+	margin-bottom: 20px
 
 
 // CONTENT
@@ -63,9 +97,8 @@ section
 
 article
 	@extend .large-6, .medium-6, .columns
-	padding: 30px 30px 10px 30px
-	border-left: 1px solid $dark
-	border-right: 1px solid $dark
+	padding: 20px 30px 10px 30px
+	border-bottom: 4px solid $dark
 	.title
 		color: $blue
 	// Dark alternative
@@ -74,6 +107,17 @@ article
 		color: $tan
 		.title
 			color: $silver
+
+i.round-icon
+	width: 24px
+	height: 24px
+	border-radius: 12px
+	border: 1px solid $tan
+	margin-right: 4px
+	text-align: center
+	color: $tan
+	font-size: 14px
+	padding: 4px
 
 // FOOTER
 footer

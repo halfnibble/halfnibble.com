@@ -1380,7 +1380,8 @@ $tabs-navigation-font-color: $dark;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-$topbar-bg-color: $dark;
+$topbar-base-color: scale-color($dark, $lightness: 3%);
+$topbar-bg-color: $topbar-base-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1392,9 +1393,9 @@ $topbar-bg-color: $dark;
 $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: $dark;
+$topbar-dropdown-bg: $topbar-base-color;
 $topbar-dropdown-link-color: $silver;
-$topbar-dropdown-link-bg: $dark;
+$topbar-dropdown-link-bg: $topbar-base-color;
 // $topbar-dropdown-link-weight: normal;
 // $topbar-dropdown-toggle-size: 5px;
 $topbar-dropdown-toggle-color: $silver;
@@ -1403,14 +1404,14 @@ $topbar-dropdown-toggle-color: $silver;
 // Set the link colors and styles for top-level nav
 $topbar-link-color: $silver;
 $topbar-link-color-hover: #FFF;
-$topbar-link-color-active: #FFF;
+$topbar-link-color-active: $dark;
 $topbar-link-color-active-hover: #FFF;
 // $topbar-link-weight: normal;
 $topbar-link-font-size: rem-calc(17);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
-// $topbar-link-bg-hover: #272727;
-$topbar-link-bg-active: $primary-color;
-// $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+$topbar-link-bg-hover: scale-color($topbar-base-color, $lightness: 5%);
+$topbar-link-bg-active: $silver;
+$topbar-link-bg-active-hover: scale-color($silver, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;

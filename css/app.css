@@ -796,17 +796,17 @@ article {
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-5, header .logos {
+  .medium-5 {
     width: 41.66667%;
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-6, article {
+  .medium-6, header .logos, header .description, article {
     width: 50%;
   }
 
   /* line 172, ../bower_components/foundation/scss/foundation/components/_grid.scss */
-  .medium-7, header .description {
+  .medium-7 {
     width: 58.33333%;
   }
 
@@ -7314,7 +7314,7 @@ meta.foundation-mq-topbar {
 /* line 111, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #151515;
+  background: #1c1c1c;
 }
 /* line 115, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -7354,7 +7354,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #151515;
+  background: #1c1c1c;
   margin-bottom: 0;
 }
 /* line 154, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7471,7 +7471,7 @@ meta.foundation-mq-topbar {
 }
 /* line 262, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #151515;
+  background: #1c1c1c;
 }
 /* line 265, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -7501,14 +7501,14 @@ meta.foundation-mq-topbar {
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #0a0a0a;
+  border-top: solid 1px #0e0e0e;
   clear: both;
   height: 1px;
   width: 100%;
 }
 /* line 301, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li {
-  background: #151515;
+  background: #1c1c1c;
 }
 /* line 303, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
@@ -7648,12 +7648,12 @@ meta.foundation-mq-topbar {
 }
 /* line 348, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #2c89cf;
-  color: #FFF;
+  background: #877e7e;
+  color: #151515;
 }
 /* line 351, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #2676b2;
+  background: #746c6c;
   color: #FFF;
 }
 /* line 359, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7767,7 +7767,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 442, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #151515;
+    background: #1c1c1c;
     overflow: visible;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -7801,7 +7801,7 @@ meta.foundation-mq-topbar {
   }
   /* line 460, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #151515;
+    background: #1c1c1c;
   }
 
   /* line 463, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7840,7 +7840,7 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #151515;
+    background: #1c1c1c;
   }
   /* line 499, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -7851,12 +7851,12 @@ meta.foundation-mq-topbar {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    color: #FFF;
-    background: #2c89cf;
+    color: #151515;
+    background: #877e7e;
   }
   /* line 513, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #2676b2;
+    background: #746c6c;
     color: #FFF;
   }
   /* line 525, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7930,12 +7930,12 @@ meta.foundation-mq-topbar {
     line-height: 45px;
     white-space: nowrap;
     padding: 12px 15px;
-    background: #151515;
+    background: #1c1c1c;
   }
   /* line 582, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
     color: #877e7e;
-    background: #151515;
+    background: #1c1c1c;
   }
   /* line 587, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .dropdown li:not(.has-form):not(.active):hover > a:not(.button) {
@@ -7957,14 +7957,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #333333;
+    border-right: solid 1px #3a3a3a;
     clear: none;
     height: 45px;
     width: 0;
   }
   /* line 619, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #151515;
+    background: #1c1c1c;
     padding: 0 15px;
     height: 45px;
   }
@@ -7995,8 +7995,8 @@ meta.foundation-mq-topbar {
   }
   /* line 658, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #2c89cf;
-    color: #FFF;
+    background: #877e7e;
+    color: #151515;
   }
   /* line 666, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -9081,23 +9081,23 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 9, ../scss/_main.sass */
+/* line 13, ../scss/_main.sass */
 .hand {
   font-family: "Homemade Apple", cursive;
   font-size: 1.3em;
 }
 
-/* line 12, ../scss/_main.sass */
+/* line 16, ../scss/_main.sass */
 .title {
   font-family: "Electrolize", sans-serif;
 }
 
-/* line 14, ../scss/_main.sass */
+/* line 18, ../scss/_main.sass */
 .nobreak {
   white-space: nowrap;
 }
 
-/* line 19, ../scss/_main.sass */
+/* line 23, ../scss/_main.sass */
 header {
   width: 100%;
   margin-left: auto;
@@ -9115,57 +9115,114 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 21, ../scss/_main.sass */
+/* line 25, ../scss/_main.sass */
 header .logos {
   text-align: center;
   padding: 30px;
+  border-bottom: 4px solid #151515;
 }
-/* line 25, ../scss/_main.sass */
+/* line 30, ../scss/_main.sass */
 header .description {
   background-color: #151515;
   color: #d0c9c3;
   padding: 30px;
+  text-align: center;
 }
-/* line 30, ../scss/_main.sass */
+/* line 36, ../scss/_main.sass */
+header .description div.right {
+  text-align: right;
+}
+/* line 38, ../scss/_main.sass */
 header .description img {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  transform: rotate(-4deg);
 }
-/* line 33, ../scss/_main.sass */
+/* line 44, ../scss/_main.sass */
+header .description img:hover {
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+/* line 46, ../scss/_main.sass */
 header .description span {
   font-weight: bold;
 }
-/* line 35, ../scss/_main.sass */
+/* line 48, ../scss/_main.sass */
 header h4 {
   font-weight: bold;
-  margin-bottom: 0.2rem;
+  color: #d0c9c3;
+  margin-bottom: 0;
+  margin: 0;
+}
+/* line 53, ../scss/_main.sass */
+header h6 {
+  color: #877e7e;
+  margin-top: 0;
 }
 
-/* line 39, ../scss/_main.sass */
-.round-icon {
+/* line 57, ../scss/_main.sass */
+#description-center {
+  margin: 0 auto;
+  width: 280px;
+}
+
+/* line 61, ../scss/_main.sass */
+.contact-me {
+  margin-bottom: 7px;
+}
+
+/* line 64, ../scss/_main.sass */
+a.round-icon {
   display: block;
-  float: left;
+  float: right;
   width: 36px;
   height: 36px;
   border-radius: 18px;
   border: 1px solid #d0c9c3;
-  margin-right: 18px;
+  margin-left: 14px;
+  margin-right: 4px;
+  margin-bottom: 1rem;
   text-align: center;
-}
-/* line 48, ../scss/_main.sass */
-.round-icon .fa {
   color: #d0c9c3;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+}
+/* line 78, ../scss/_main.sass */
+a.round-icon:hover {
+  background-color: #d0c9c3;
+  color: #2c89cf;
+}
+/* line 81, ../scss/_main.sass */
+a.round-icon .fa {
   font-size: 22px;
   margin: 7px;
 }
 
-/* line 53, ../scss/_main.sass */
+/* line 85, ../scss/_main.sass */
 #nibble-logo {
   height: 80px;
   margin-bottom: 15px;
 }
 
-/* line 61, ../scss/_main.sass */
+/* line 90, ../scss/_main.sass */
+nav.top-bar {
+  margin-bottom: 20px;
+}
+
+/* line 95, ../scss/_main.sass */
 section {
   width: 100%;
   margin-left: auto;
@@ -9184,27 +9241,39 @@ section:after {
   clear: both;
 }
 
-/* line 64, ../scss/_main.sass */
+/* line 98, ../scss/_main.sass */
 article {
-  padding: 30px 30px 10px 30px;
-  border-left: 1px solid #151515;
-  border-right: 1px solid #151515;
+  padding: 20px 30px 10px 30px;
+  border-bottom: 4px solid #151515;
 }
-/* line 69, ../scss/_main.sass */
+/* line 102, ../scss/_main.sass */
 article .title {
   color: #2c89cf;
 }
-/* line 72, ../scss/_main.sass */
+/* line 105, ../scss/_main.sass */
 article.alternate {
   background-color: #151515;
   color: #d0c9c3;
 }
-/* line 75, ../scss/_main.sass */
+/* line 108, ../scss/_main.sass */
 article.alternate .title {
   color: #877e7e;
 }
 
-/* line 79, ../scss/_main.sass */
+/* line 111, ../scss/_main.sass */
+i.round-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid #d0c9c3;
+  margin-right: 4px;
+  text-align: center;
+  color: #d0c9c3;
+  font-size: 14px;
+  padding: 4px;
+}
+
+/* line 123, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;

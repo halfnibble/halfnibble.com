@@ -29,6 +29,41 @@
 	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
+	<!-- NAVIGATION -->
+	<div id="nav-container" class="fixed contain-to-grid">
+		<nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+			<ul class="title-area">
+			    <li class="name">
+			    	<h1><a href="#">@menu</a></h1>
+			    </li>
+    			<li class="toggle-topbar"><a href="#"><span>&nbsp;<i class="fa fa-navicon round-icon"></i></span></a></li>
+  			</ul>
+
+			<section class="top-bar-section">	
+				<ul class="left">
+					<li class="active">
+						<a href="#">
+							<i class="fa fa-home round-icon"></i>
+							Home
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="fa fa-file-text round-icon"></i>
+							Articles
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="fa fa-terminal round-icon"></i>
+							Portfolio
+						</a>
+					</li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+
 	<!-- HEADER -->
 	<header>
 		<div class="logos">
@@ -37,38 +72,34 @@
 			<span class="hand">&nbsp;My two bits on coding</span>
 		</div>
 		<div class="description">
-			<img class="th radius left" src="http://www.gravatar.com/avatar/7504fae09ab00aac17a6fbcb02d199d2.png">
+				
+			<div id="description-center">
+				<div class="right">
+					<h4 class="title"><span class="nobreak">Josh Wedekind</span></h4>
+					<h6>Full stack web developer</h6>
+					<a href="3" class="round-icon"><i class="fa fa-linkedin"></i></a>
+					<a href="#" class="round-icon"><i class="fa fa-git"></i></a>
+					<a href="#" class="round-icon"><i class="fa fa-twitter"></i></a>
+				</div>
+
+				<img class="th radius" src="http://www.gravatar.com/avatar/7504fae09ab00aac17a6fbcb02d199d2.png">
+
+				<br style="clear: both">
+			</div>
 			
-			<h4 class="title"><span class="nobreak">Josh Wedekind</span></h4>
-			
-			<a href="#" class="round-icon"><i class="fa fa-twitter"></i></a> &nbsp;
-			<a href="#" class="round-icon"><i class="fa fa-git"></i></a> &nbsp;
-			<a href="3" class="round-icon"><i class="fa fa-linkedin"></i></a>
-			<br style="clear: both">
-			<span class="nobreak">Phone: <a href="#">+1 (206) 930-2645</a></span>&nbsp;
-			<span class="nobreak">Email: <a href="mailto:josh@halfnibble.com">josh@halfnibble.com</a></span>			
+
+			<span class="">
+				<i class="fa fa-phone round-icon contact-me"></i>
+				<a href="#">+1 (206) 930-2645</a>
+			</span>&nbsp;
+			<span class="nobreak">
+				<i class="fa fa-envelope round-icon contact-me"></i>
+				<a href="mailto:josh@halfnibble.com">josh@halfnibble.com</a>
+			</span>			
 		</div>
 	</header>
 
-	<!-- NAVIGATION -->
-	<div class="contain-to-grid sticky">
-		<nav class="top-bar" data-topbar data-options="sticky_on: large">
-			<section class="top-bar-section">
-				<ul class="left">
-					<li class="active">
-						<a href="#">Home</a>
-					</li>
-					<li class="">
-						<a href="#">Articles</a>
-					</li>
-					<li class="">
-						<a href="#">Portfolio</a>
-					</li>
-				</ul>
-			</section>
-		</nav>
-	</div>
-
+	
 	<!-- PAGE CONTENT -->
 	<?php
 		try {

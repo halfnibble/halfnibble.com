@@ -27,10 +27,11 @@
 </section>
 
 <section>
-	<article class="alternate">
+	<article>
 		<?php echo $lorem; ?>
 	</article>
-	<article>
+
+	<article class="alternate">
 		<?php echo $lorem; ?>
 	</article>
 </section>
@@ -39,16 +40,18 @@
 	<article>
 		<?php echo $lorem; ?>
 	</article>
+
 	<article class="alternate">
 		<?php echo $lorem; ?>
 	</article>
 </section>
 
 <section>
-	<article class="alternate">
+	<article>
 		<?php echo $lorem; ?>
 	</article>
-	<article>
+
+	<article class="alternate">
 		<?php echo $lorem; ?>
 	</article>
 </section>
