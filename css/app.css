@@ -9097,7 +9097,20 @@ th.hide-for-touch {
   white-space: nowrap;
 }
 
-/* line 23, ../scss/_main.sass */
+/* line 20, ../scss/_main.sass */
+i.round-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid #d0c9c3;
+  margin-right: 4px;
+  text-align: center;
+  color: #d0c9c3;
+  font-size: 14px;
+  padding: 4px;
+}
+
+/* line 33, ../scss/_main.sass */
 header {
   width: 100%;
   margin-left: auto;
@@ -9115,24 +9128,24 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 25, ../scss/_main.sass */
+/* line 35, ../scss/_main.sass */
 header .logos {
   text-align: center;
   padding: 30px;
   border-bottom: 4px solid #151515;
 }
-/* line 30, ../scss/_main.sass */
+/* line 40, ../scss/_main.sass */
 header .description {
   background-color: #151515;
   color: #d0c9c3;
   padding: 30px;
   text-align: center;
 }
-/* line 36, ../scss/_main.sass */
+/* line 46, ../scss/_main.sass */
 header .description div.right {
   text-align: right;
 }
-/* line 38, ../scss/_main.sass */
+/* line 48, ../scss/_main.sass */
 header .description img {
   float: right;
   margin-top: 0.5rem;
@@ -9143,42 +9156,42 @@ header .description img {
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
-/* line 44, ../scss/_main.sass */
+/* line 54, ../scss/_main.sass */
 header .description img:hover {
   -moz-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
   transform: rotate(3deg);
 }
-/* line 46, ../scss/_main.sass */
+/* line 56, ../scss/_main.sass */
 header .description span {
   font-weight: bold;
 }
-/* line 48, ../scss/_main.sass */
+/* line 58, ../scss/_main.sass */
 header h4 {
   font-weight: bold;
   color: #d0c9c3;
   margin-bottom: 0;
   margin: 0;
 }
-/* line 53, ../scss/_main.sass */
+/* line 63, ../scss/_main.sass */
 header h6 {
   color: #877e7e;
   margin-top: 0;
 }
 
-/* line 57, ../scss/_main.sass */
+/* line 67, ../scss/_main.sass */
 #description-center {
   margin: 0 auto;
   width: 280px;
 }
 
-/* line 61, ../scss/_main.sass */
+/* line 71, ../scss/_main.sass */
 .contact-me {
   margin-bottom: 7px;
 }
 
-/* line 64, ../scss/_main.sass */
+/* line 74, ../scss/_main.sass */
 a.round-icon {
   display: block;
   float: right;
@@ -9200,29 +9213,44 @@ a.round-icon {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 78, ../scss/_main.sass */
+/* line 88, ../scss/_main.sass */
 a.round-icon:hover {
   background-color: #d0c9c3;
   color: #2c89cf;
 }
-/* line 81, ../scss/_main.sass */
+/* line 91, ../scss/_main.sass */
 a.round-icon .fa {
   font-size: 22px;
   margin: 7px;
 }
 
-/* line 85, ../scss/_main.sass */
+/* line 95, ../scss/_main.sass */
 #nibble-logo {
   height: 80px;
   margin-bottom: 15px;
 }
 
-/* line 90, ../scss/_main.sass */
+/* line 100, ../scss/_main.sass */
 nav.top-bar {
   margin-bottom: 20px;
 }
+/* line 103, ../scss/_main.sass */
+nav.top-bar li i.round-icon {
+  color: #877e7e;
+  border-color: #877e7e;
+}
+/* line 107, ../scss/_main.sass */
+nav.top-bar li.active i.round-icon {
+  color: #151515;
+  border-color: #151515;
+}
+/* line 111, ../scss/_main.sass */
+nav.top-bar li:hover i.round-icon {
+  color: #FFF;
+  border-color: #FFF;
+}
 
-/* line 95, ../scss/_main.sass */
+/* line 118, ../scss/_main.sass */
 section {
   width: 100%;
   margin-left: auto;
@@ -9241,39 +9269,26 @@ section:after {
   clear: both;
 }
 
-/* line 98, ../scss/_main.sass */
+/* line 121, ../scss/_main.sass */
 article {
   padding: 20px 30px 10px 30px;
   border-bottom: 4px solid #151515;
 }
-/* line 102, ../scss/_main.sass */
+/* line 125, ../scss/_main.sass */
 article .title {
   color: #2c89cf;
 }
-/* line 105, ../scss/_main.sass */
+/* line 128, ../scss/_main.sass */
 article.alternate {
   background-color: #151515;
   color: #d0c9c3;
 }
-/* line 108, ../scss/_main.sass */
+/* line 131, ../scss/_main.sass */
 article.alternate .title {
   color: #877e7e;
 }
 
-/* line 111, ../scss/_main.sass */
-i.round-icon {
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  border: 1px solid #d0c9c3;
-  margin-right: 4px;
-  text-align: center;
-  color: #d0c9c3;
-  font-size: 14px;
-  padding: 4px;
-}
-
-/* line 123, ../scss/_main.sass */
+/* line 136, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;

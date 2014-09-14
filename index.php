@@ -36,7 +36,7 @@
 			    <li class="name">
 			    	<h1><a href="#">@menu</a></h1>
 			    </li>
-    			<li class="toggle-topbar"><a href="#"><span>&nbsp;<i class="fa fa-navicon round-icon"></i></span></a></li>
+    			<li class="toggle-topbar"><a href="#"><span><i class="fa fa-navicon round-icon"></i></span></a></li>
   			</ul>
 
 			<section class="top-bar-section">	
@@ -117,7 +117,7 @@
 
 	<!-- FOOTER -->
 	<footer>
-		<p>page footer</p>
+		<p>&copy; Josh Wedekind 2014 &middot; halfnibble.com &middot; Made in the USA</p>
 	</footer>
 
 

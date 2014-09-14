@@ -17,6 +17,16 @@ $silver: #877e7e
 	font-family: 'Electrolize', sans-serif
 .nobreak
 	white-space: nowrap
+i.round-icon
+	width: 24px
+	height: 24px
+	border-radius: 12px
+	border: 1px solid $tan
+	margin-right: 4px
+	text-align: center
+	color: $tan
+	font-size: 14px
+	padding: 4px
 
 
 // HEADER
@@ -89,6 +99,19 @@ a.round-icon
 // NAVIGATION
 nav.top-bar
 	margin-bottom: 20px
+	li
+		i.round-icon
+			color: $silver
+			border-color: $silver
+		&.active
+			i.round-icon
+				color: $dark
+				border-color: $dark
+		&:hover
+			i.round-icon
+				color: #FFF
+				border-color: #FFF
+
 
 
 // CONTENT
@@ -108,16 +131,6 @@ article
 		.title
 			color: $silver
 
-i.round-icon
-	width: 24px
-	height: 24px
-	border-radius: 12px
-	border: 1px solid $tan
-	margin-right: 4px
-	text-align: center
-	color: $tan
-	font-size: 14px
-	padding: 4px
 
 // FOOTER
 footer
