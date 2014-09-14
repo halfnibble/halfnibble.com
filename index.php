@@ -59,6 +59,18 @@
 							Portfolio
 						</a>
 					</li>
+					<li class="">
+						<a href="#">
+							<i class="fa fa-puzzle-piece round-icon"></i>
+							Projects
+						</a>
+					</li>
+					<li class="">
+						<a href="#">
+							<i class="fa fa-suitcase round-icon"></i>
+							Services
+						</a>
+					</li>
 				</ul>
 			</section>
 		</nav>

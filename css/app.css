@@ -9118,6 +9118,7 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5rem;
+  border-bottom: 4px solid #151515;
 }
 /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
 header:before, header:after {
@@ -9128,11 +9129,10 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 35, ../scss/_main.sass */
+/* line 36, ../scss/_main.sass */
 header .logos {
   text-align: center;
-  padding: 30px;
-  border-bottom: 4px solid #151515;
+  padding: 40px 30px 30px 30px;
 }
 /* line 40, ../scss/_main.sass */
 header .description {
@@ -9250,7 +9250,13 @@ nav.top-bar li:hover i.round-icon {
   border-color: #FFF;
 }
 
-/* line 118, ../scss/_main.sass */
+/* line 115, ../scss/_main.sass */
+li.toggle-topbar {
+  padding-left: 150px;
+  cursor: pointer;
+}
+
+/* line 122, ../scss/_main.sass */
 section {
   width: 100%;
   margin-left: auto;
@@ -9269,26 +9275,26 @@ section:after {
   clear: both;
 }
 
-/* line 121, ../scss/_main.sass */
+/* line 125, ../scss/_main.sass */
 article {
   padding: 20px 30px 10px 30px;
   border-bottom: 4px solid #151515;
 }
-/* line 125, ../scss/_main.sass */
+/* line 129, ../scss/_main.sass */
 article .title {
   color: #2c89cf;
 }
-/* line 128, ../scss/_main.sass */
+/* line 132, ../scss/_main.sass */
 article.alternate {
   background-color: #151515;
   color: #d0c9c3;
 }
-/* line 131, ../scss/_main.sass */
+/* line 135, ../scss/_main.sass */
 article.alternate .title {
   color: #877e7e;
 }
 
-/* line 136, ../scss/_main.sass */
+/* line 140, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;
