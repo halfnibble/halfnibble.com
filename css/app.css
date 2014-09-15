@@ -9332,8 +9332,17 @@ article.alternate {
 article.alternate .title {
   color: #877e7e;
 }
+/* line 148, ../scss/_main.sass */
+article img {
+  padding: 15px;
+  margin: 4px 15px 4px 0px;
+  border: 1px solid #151515;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
 
-/* line 151, ../scss/_main.sass */
+/* line 157, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;
