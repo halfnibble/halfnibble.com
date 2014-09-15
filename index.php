@@ -55,13 +55,13 @@
 					</li>
 					<li class="">
 						<a href="#">
-							<i class="fa fa-terminal round-icon"></i>
+							<i class="fa fa-folder round-icon"></i>
 							Portfolio
 						</a>
 					</li>
 					<li class="">
 						<a href="#">
-							<i class="fa fa-puzzle-piece round-icon"></i>
+							<i class="fa fa-terminal round-icon"></i>
 							Projects
 						</a>
 					</li>
@@ -89,9 +89,9 @@
 				<div class="right">
 					<h4 class="title"><span class="nobreak">Josh Wedekind</span></h4>
 					<h6>Full stack web developer</h6>
-					<a href="3" class="round-icon"><i class="fa fa-linkedin"></i></a>
-					<a href="#" class="round-icon"><i class="fa fa-git"></i></a>
-					<a href="#" class="round-icon"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/pub/joshua-wedekind/15/8a1/27" target="_blank" class="round-icon"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/halfnibble/" target="_blank" class="round-icon"><i class="fa fa-git"></i></a>
+					<a href="https://twitter.com/halfnibble" target="_blank" class="round-icon"><i class="fa fa-twitter"></i></a>
 				</div>
 
 				<img class="th radius" src="http://www.gravatar.com/avatar/7504fae09ab00aac17a6fbcb02d199d2.png">
@@ -102,17 +102,18 @@
 
 			<span class="">
 				<i class="fa fa-phone round-icon contact-me"></i>
-				<a href="#">+1 (206) 930-2645</a>
+				<a href="tel:2069302645">+1 (206) 930-2645</a>
 			</span>&nbsp;
 			<span class="nobreak">
 				<i class="fa fa-envelope round-icon contact-me"></i>
-				<a href="mailto:josh@halfnibble.com">josh@halfnibble.com</a>
+				<a href="mailto:josh@halfnibble.com?subject=Web Development">josh@halfnibble.com</a>
 			</span>			
 		</div>
 	</header>
 
 	
 	<!-- PAGE CONTENT -->
+	<div id="page-content">
 	<?php
 		try {
 			if (file_exists($_SERVER["DOCUMENT_ROOT"].$thisPage))
@@ -126,6 +127,7 @@
 			echo "</section></div>";
 		}
 	?>
+	</div>
 
 	<!-- FOOTER -->
 	<footer>
