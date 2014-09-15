@@ -1,9 +1,18 @@
 <?php
 	// Page requested
-	$thisPage = $_REQUEST['page'];
+	$page = $_REQUEST['page'];
 
-	if ($thisPage == NULL)
-		$thisPage = "/pages/home.php";
+	if (empty($page))
+		$page = "home.php";
+
+	$links = array(
+		"home.php" => "",
+		"articles.php" => "",
+		"portfolio.php" => "",
+		"projects.php" => "",
+		"services.php" => "");
+
+	$links[$page] = "active";
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -21,8 +30,8 @@
 
 	<!-- Required CSS & JavaScript -->
 	<link href='http://fonts.googleapis.com/css?family=Cabin:400,700|Homemade+Apple|Electrolize' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/app.css" />
-	<script src="bower_components/modernizr/modernizr.js"></script>
+	<link rel="stylesheet" href="/css/app.css" />
+	<script src="/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
 	<!--[if lt IE 7]>
@@ -41,32 +50,32 @@
 
 			<section class="top-bar-section">	
 				<ul class="left">
-					<li class="active">
-						<a href="#">
+					<li class="<?php echo $links["home.php"]; ?>">
+						<a href="/page/home">
 							<i class="fa fa-home round-icon"></i>
 							Home
 						</a>
 					</li>
-					<li class="">
-						<a href="#">
+					<li class="<?php echo $links["articles.php"]; ?>">
+						<a href="/page/articles">
 							<i class="fa fa-file-text round-icon"></i>
 							Articles
 						</a>
 					</li>
-					<li class="">
-						<a href="#">
+					<li class="<?php echo $links["portfolio.php"]; ?>">
+						<a href="/page/portfolio">
 							<i class="fa fa-folder round-icon"></i>
 							Portfolio
 						</a>
 					</li>
-					<li class="">
-						<a href="#">
+					<li class="<?php echo $links["projects.php"]; ?>">
+						<a href="/page/projects">
 							<i class="fa fa-terminal round-icon"></i>
 							Projects
 						</a>
 					</li>
-					<li class="">
-						<a href="#">
+					<li class="<?php echo $links["services.php"]; ?>">
+						<a href="/page/services">
 							<i class="fa fa-suitcase round-icon"></i>
 							Services
 						</a>
@@ -79,7 +88,7 @@
 	<!-- HEADER -->
 	<header>
 		<div class="logos">
-			<img id="nibble-logo" src="img/halfnibble-web-logo.png" alt="halfnibble">
+			<img id="nibble-logo" src="/img/halfnibble-web-logo.png" alt="halfnibble">
 			<br>
 			<span class="hand">&nbsp;My two bits on coding</span>
 		</div>
@@ -116,10 +125,10 @@
 	<div id="page-content">
 	<?php
 		try {
-			if (file_exists($_SERVER["DOCUMENT_ROOT"].$thisPage))
-				require $_SERVER["DOCUMENT_ROOT"].$thisPage;
+			if (file_exists($_SERVER["DOCUMENT_ROOT"]."/pages/".$page))
+				require $_SERVER["DOCUMENT_ROOT"]."/pages/".$page;
 			else
-				throw new Exception("The webpage ($thisPage) does not exist!", 1);
+				throw new Exception("The webpage ($page) does not exist!", 1);
 		} catch (Exception $e) {
 			echo "<section><div class=\"large-12 columns\">";
 			echo "	<p>We were unable to access your page. Sorry.</p>";
@@ -137,8 +146,8 @@
 
 	<!-- Application JavaScript -->
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript">window.jQuery || document.write('<script src="bower_components/foundation/js/vendor/jquery.min.js"><\/script>')</script>
-	<script type="text/javascript" src="bower_components/foundation/js/foundation.min.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="/bower_components/foundation/js/vendor/jquery.min.js"><\/script>')</script>
+	<script type="text/javascript" src="/bower_components/foundation/js/foundation.min.js"></script>
 	<script type="text/javascript" src="/js/app.js"></script>
 	<script type="text/javascript" src="/js/nibble.js"></script>
 </body>

@@ -11,6 +11,8 @@ $green: #39ce2c
 $silver: #877e7e
 
 // PAGE
+body
+	-webkit-font-smoothing: antialiased
 .hand
 	font-family: 'Homemade Apple', cursive
 	font-size: 1.3em
@@ -101,9 +103,16 @@ a.round-icon
 nav.top-bar
 	margin-bottom: 20px
 	li
+		@include transition-property(background)
+		@include transition-duration(400ms)
+		a
+			@include transition-property(color)
+			@include transition-duration(400ms)
 		i.round-icon
 			color: $silver
 			border-color: $silver
+			@include transition-property(color, border-color)
+			@include transition-duration(400ms)
 		&.active
 			i.round-icon
 				color: $dark
