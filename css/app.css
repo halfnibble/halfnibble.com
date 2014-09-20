@@ -9081,28 +9081,28 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 14, ../scss/_main.sass */
+/* line 15, ../scss/_main.sass */
 body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 16, ../scss/_main.sass */
+/* line 17, ../scss/_main.sass */
 .hand {
   font-family: "Homemade Apple", cursive;
   font-size: 1.3em;
 }
 
-/* line 19, ../scss/_main.sass */
+/* line 20, ../scss/_main.sass */
 .title {
   font-family: "Electrolize", sans-serif;
 }
 
-/* line 21, ../scss/_main.sass */
+/* line 22, ../scss/_main.sass */
 .nobreak {
   white-space: nowrap;
 }
 
-/* line 23, ../scss/_main.sass */
+/* line 24, ../scss/_main.sass */
 i.round-icon {
   width: 24px;
   height: 24px;
@@ -9117,7 +9117,17 @@ i.round-icon {
   padding: 4px;
 }
 
+/* line 34, ../scss/_main.sass */
+ul span {
+  margin-left: -1.1rem;
+}
+
 /* line 36, ../scss/_main.sass */
+.blue {
+  color: #2c89cf;
+}
+
+/* line 41, ../scss/_main.sass */
 header {
   width: 100%;
   margin-left: auto;
@@ -9136,23 +9146,23 @@ header:before, header:after {
 header:after {
   clear: both;
 }
-/* line 39, ../scss/_main.sass */
+/* line 44, ../scss/_main.sass */
 header .logos {
   text-align: center;
   padding: 40px 30px 30px 30px;
 }
-/* line 43, ../scss/_main.sass */
+/* line 48, ../scss/_main.sass */
 header .description {
   background-color: #151515;
   color: #d0c9c3;
   padding: 30px;
   text-align: center;
 }
-/* line 49, ../scss/_main.sass */
+/* line 54, ../scss/_main.sass */
 header .description div.right {
   text-align: right;
 }
-/* line 51, ../scss/_main.sass */
+/* line 56, ../scss/_main.sass */
 header .description img {
   float: right;
   margin-top: 0.5rem;
@@ -9163,42 +9173,42 @@ header .description img {
   -webkit-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
-/* line 57, ../scss/_main.sass */
+/* line 62, ../scss/_main.sass */
 header .description img:hover {
   -moz-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
   transform: rotate(3deg);
 }
-/* line 59, ../scss/_main.sass */
+/* line 64, ../scss/_main.sass */
 header .description span {
   font-weight: bold;
 }
-/* line 61, ../scss/_main.sass */
+/* line 66, ../scss/_main.sass */
 header h4 {
   font-weight: bold;
   color: #d0c9c3;
   margin-bottom: 0;
   margin: 0;
 }
-/* line 66, ../scss/_main.sass */
+/* line 71, ../scss/_main.sass */
 header h6 {
   color: #877e7e;
   margin-top: 0;
 }
 
-/* line 70, ../scss/_main.sass */
+/* line 75, ../scss/_main.sass */
 #description-center {
   margin: 0 auto;
   width: 290px;
 }
 
-/* line 74, ../scss/_main.sass */
+/* line 79, ../scss/_main.sass */
 .contact-me {
   margin-bottom: 7px;
 }
 
-/* line 77, ../scss/_main.sass */
+/* line 82, ../scss/_main.sass */
 a.round-icon {
   display: block;
   float: right;
@@ -9222,28 +9232,28 @@ a.round-icon {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 91, ../scss/_main.sass */
+/* line 96, ../scss/_main.sass */
 a.round-icon:hover {
   background-color: #d0c9c3;
   color: #2c89cf;
 }
-/* line 94, ../scss/_main.sass */
+/* line 99, ../scss/_main.sass */
 a.round-icon .fa {
   font-size: 22px;
   margin: 7px;
 }
 
-/* line 98, ../scss/_main.sass */
+/* line 103, ../scss/_main.sass */
 #nibble-logo {
   height: 80px;
   margin-bottom: 15px;
 }
 
-/* line 103, ../scss/_main.sass */
+/* line 108, ../scss/_main.sass */
 nav.top-bar {
   margin-bottom: 20px;
 }
-/* line 105, ../scss/_main.sass */
+/* line 110, ../scss/_main.sass */
 nav.top-bar li {
   -moz-transition-property: background;
   -o-transition-property: background;
@@ -9254,7 +9264,7 @@ nav.top-bar li {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 108, ../scss/_main.sass */
+/* line 113, ../scss/_main.sass */
 nav.top-bar li a {
   -moz-transition-property: color;
   -o-transition-property: color;
@@ -9265,7 +9275,7 @@ nav.top-bar li a {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 111, ../scss/_main.sass */
+/* line 116, ../scss/_main.sass */
 nav.top-bar li i.round-icon {
   color: #877e7e;
   border-color: #877e7e;
@@ -9278,24 +9288,24 @@ nav.top-bar li i.round-icon {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 117, ../scss/_main.sass */
+/* line 122, ../scss/_main.sass */
 nav.top-bar li.active i.round-icon {
   color: #151515;
   border-color: #151515;
 }
-/* line 121, ../scss/_main.sass */
+/* line 126, ../scss/_main.sass */
 nav.top-bar li:hover i.round-icon {
   color: #FFF;
   border-color: #FFF;
 }
 
-/* line 125, ../scss/_main.sass */
+/* line 130, ../scss/_main.sass */
 li.toggle-topbar {
   padding-left: 150px;
   cursor: pointer;
 }
 
-/* line 133, ../scss/_main.sass */
+/* line 138, ../scss/_main.sass */
 #page-content section {
   width: 100%;
   margin-left: auto;
@@ -9315,34 +9325,49 @@ li.toggle-topbar {
   clear: both;
 }
 
-/* line 137, ../scss/_main.sass */
+/* line 142, ../scss/_main.sass */
 article {
   padding: 20px 30px 10px 30px;
 }
-/* line 140, ../scss/_main.sass */
+/* line 145, ../scss/_main.sass */
 article .title {
   color: #2c89cf;
 }
-/* line 143, ../scss/_main.sass */
+/* line 148, ../scss/_main.sass */
 article.alternate {
   background-color: #151515;
   color: #d0c9c3;
 }
-/* line 146, ../scss/_main.sass */
+/* line 151, ../scss/_main.sass */
 article.alternate .title {
   color: #877e7e;
 }
-/* line 148, ../scss/_main.sass */
+/* line 153, ../scss/_main.sass */
+article.alternate img {
+  border-color: #d0c9c3;
+}
+/* line 155, ../scss/_main.sass */
 article img {
   padding: 15px;
-  margin: 4px 15px 4px 0px;
+  margin: 8px 15px 4px 0px;
   border: 1px solid #151515;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+  width: 250px;
+  max-width: 40%;
+}
+/* line 162, ../scss/_main.sass */
+article img.full-width {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 8px;
 }
 
-/* line 157, ../scss/_main.sass */
+/* line 171, ../scss/_main.sass */
 footer {
   width: 100%;
   margin-left: auto;

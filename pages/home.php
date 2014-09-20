@@ -21,21 +21,41 @@
 	<article>
 		<h4 class="title">A Bit About Me</h4>
 		<p>
-			<img src="/img/KayPro_aboutme_lowres.png" width="200" align="left">
+			<img src="/img/KayPro_aboutme_lowres.png" align="left">
 			I am a freelance, full stack web developer presently located in Reno, NV. I'm also an
 			air traffic controller and software entrepreneur. Previously, I've worked as a chemist
-			for Clinical Reference Laboratory and a radiology technologist for the U.S. Army. The
-			fact is, I love anything highly technical and challenging, and am not afraid to teach
+			for Clinical Reference Laboratory and a radiology technologist for the U.S. Army. I 
+			love anything highly technical and challenging, and am not afraid to teach
 			myself something new.
 		</p>
 		<p>
 			One of my many hobbies is studying early computer systems. The color scheme for this 
-			website is inspired by my favorite early personal computer, the KayPro II (pictured 
-			above). My other favorite hobbies include skiing, hiking, and building with LEGO.
+			website is inspired by my favorite old personal computer, the KayPro II (pictured 
+			above). My other exhiting hobbies include skiing, hiking, and building with LEGO.
 		</p>
 	</article>
 	<article class="alternate">
-		<?php echo $lorem; ?>
+		<h4 class="title">
+			<i class="fa fa-suitcase"></i>
+			Business Services
+		</h4>
+		<img class="full-width rounded" src="/img/my-office-desk.jpg">
+		<p>
+			Pictured here is my desk where I work hard to develop software solutions to all the
+			world's problems.
+		</p>
+		<p>
+			<ul><span class="blue">Services include:</span>
+				<li>Website development</li>
+				<li>Database design &amp; optimization (MySQL)</li>
+				<li>Software patent preparation</li> 
+				<li>BlackBerry 10 app development</li>
+				<li>Project management</li>
+			</ul>
+		</p>
+		<p>
+			For a details on the services offered, visit the <a href="/page/services">Services page.</a>
+		</p>
 	</article>
 </section>
 
