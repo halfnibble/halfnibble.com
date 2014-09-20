@@ -30,8 +30,15 @@
 		</p>
 		<p>
 			One of my many hobbies is studying early computer systems. The color scheme for this 
-			website is inspired by my favorite old personal computer, the KayPro II (pictured 
-			above). My other exhiting hobbies include skiing, hiking, and building with LEGO.
+			website is inspired by my favorite old personal computer, the <em>KayPro II (pictured 
+			above).</em> My other exhiting hobbies include skiing, hiking, and building with LEGO.
+		</p>
+		<p>
+			To learn more about what I'm up to, follow me on Twitter 
+			<a href="https://twitter.com/halfnibble" target="_blank">@halfnibble</a>
+		</p>
+		<p>
+			<span class="label radius warning">(Fair warning: I am an unapologetic BlackBerry 10 fan)</span>
 		</p>
 	</article>
 	<article class="alternate">
